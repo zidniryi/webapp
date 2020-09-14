@@ -13,7 +13,8 @@ const Slider = () => {
             data-hash="slide1"
           >
             <h2>
-              It is health that is real wealth and not pieces of gold and silver
+              It Helo is health that is real wealth and not pieces of gold and
+              silver
             </h2>
           </div>
           <div
@@ -21,7 +22,16 @@ const Slider = () => {
             style={{ backgroundImage: `url(${background})` }}
             data-hash="slide2"
           >
-            <h2>Happiness is nothing more than good health and a bad memory</h2>
+            <h2>
+              Happiness Hi is nothing more than good health and a bad memory
+            </h2>
+          </div>
+          <div
+            className="swiper-slide slider-bg-position"
+            style={{ backgroundImage: `url(${background})` }}
+            data-hash="slide2"
+          >
+            <h2>Hoo Hi is nothing more than good health and a bad memory</h2>
           </div>
         </div>
         <div className="swiper-pagination"></div>

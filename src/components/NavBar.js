@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     <Fragment>
@@ -25,10 +26,10 @@ const NavBar = () => {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 {' '}
-                <a className="nav-link" href="#myCarousel">
+                <Link className="nav-link" to="/">
                   Home
                   <span className="sr-only">(current)</span>
-                </a>{' '}
+                </Link>{' '}
               </li>
 
               <li className="nav-item dropdown">
@@ -49,14 +50,14 @@ const NavBar = () => {
                 shadow"
                 >
                   <li>
-                    <a href="./about_company.html" className="dropdown-item">
+                    <Link to="/about" className="dropdown-item">
                       Company Profile{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="./visi.html" className="dropdown-item">
+                    <Link to="/visi" className="dropdown-item">
                       Visi Misi
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
@@ -82,7 +83,7 @@ const NavBar = () => {
                         <h6 className="title">Title Menu Satu</h6>
                         <ul className="list-unstyled">
                           <li>
-                            <a href="./product_cards.html">Custom Menu</a>
+                            <Link to="/product">Product One</Link>
                           </li>
                           <li>
                             <a href="#">Custom Menu</a>
@@ -239,9 +240,9 @@ const NavBar = () => {
 
               <li className="nav-item">
                 {' '}
-                <a className="nav-link" href="#contact">
+                <Link className="nav-link" to="/contact">
                   E-Catalog
-                </a>
+                </Link>
               </li>
 
               <li className="nav-item dropdown">
@@ -262,9 +263,9 @@ const NavBar = () => {
                 shadow"
                 >
                   <li>
-                    <a href="./galery.html" className="dropdown-item">
+                    <Link to="/galery" className="dropdown-item">
                       Galeri 1{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
@@ -275,9 +276,9 @@ const NavBar = () => {
               </li>
               <li className="nav-item">
                 {' '}
-                <a className="nav-link" href="./contact.html">
+                <Link className="nav-link" to="/contact">
                   Contact US
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
