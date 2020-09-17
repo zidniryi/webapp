@@ -240,7 +240,7 @@ const NavBar = () => {
 
               <li className="nav-item">
                 {' '}
-                <Link className="nav-link" to="/contact">
+                <Link className="nav-link" to="/catalog">
                   E-Catalog
                 </Link>
               </li>

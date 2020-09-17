@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Slider from '../components/Slider'
 import Footer from '../components/Footer'
+import Floating from '../components/Floating'
 
 const Home = () => {
   return (
@@ -91,6 +92,7 @@ const Home = () => {
         </div>
       </section>
       <Footer />
+      <Floating />
     </Fragment>
   )
 }

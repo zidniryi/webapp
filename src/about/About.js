@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import Floating from '../components/Floating'
 
 const About = () => {
   return (
@@ -130,6 +131,7 @@ const About = () => {
         </div>
       </div>
       <Footer />
+      <Floating />
     </Fragment>
   )
 }
