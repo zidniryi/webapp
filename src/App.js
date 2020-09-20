@@ -8,6 +8,7 @@ import About from './about/About'
 import Product from './product/Product'
 import Visi from './Visi/Visi'
 import Catalog from './catalagog/Catalog'
+import PdfViewer from './pdfViewer/PdfViewer'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path={'/visi'} component={Visi} />
         <Route exact path={'/galerry'} component={Gallery} />
         <Route exact path={'/catalog'} component={Catalog} />
+        <Route exact path={'/pdf'} component={PdfViewer} />
       </Fragment>
     </Router>
   )

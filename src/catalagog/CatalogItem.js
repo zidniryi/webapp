@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
 const CatalogItem = () => {
   return (
@@ -11,9 +12,9 @@ const CatalogItem = () => {
               With supporting text below as a natural lead-in to additional
               content.
             </p>
-            <a href="#" className="btn btn-outline-light">
+            <Link to="/pdf" className="btn btn-outline-light">
               Lihat Catalog <i className="fa fa-eye" aria-hidden="true"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
