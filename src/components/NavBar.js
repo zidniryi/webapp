@@ -8,7 +8,7 @@ const NavBar = () => {
       sps--abv"
       >
         <div className="container">
-          <button
+          {/* <button
             className="navbar-toggler navbar-toggler-right"
             type="button"
             data-toggle="collapse"
@@ -18,11 +18,22 @@ const NavBar = () => {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
+          </button> */}
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span style={{ color: 'red' }} class="navbar-toggler-icon"></span>
           </button>
           <a className="navbar-brand mx-auto" href="#">
             Gra<span>freez</span>
           </a>
-          <div className="collapse navbar-collapse" id="navbarCollapse1">
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item active">
                 {' '}
@@ -226,9 +237,9 @@ const NavBar = () => {
                 shadow"
                 >
                   <li>
-                    <a href="#" className="dropdown-item">
+                    <Link to="service-ctp" className="dropdown-item">
                       CTS{' '}
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="#" className="dropdown-item">
