@@ -16,7 +16,9 @@ const App = () => {
   return (
     <Router>
       <Fragment>
-        <Route exact path={'/'} component={Home} />
+        <Switch>
+          <Route exact path={'/'} component={Home} />
+        </Switch>
         <Route exact path={'/contact'} component={Contact} />
         <Route exact path={'/gallery'} component={Gallery} />
         <Route exact path={'/about'} component={About} />

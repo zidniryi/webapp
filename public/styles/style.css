@@ -1364,6 +1364,7 @@ section .section-title {
 }
 
 /* Floating */
+/* https://codepen.io/babyinheels/pen/LVzJje?__cf_chl_jschl_tk__=9b2e2bf8eee7133c7a92d7c34e58d6637e2f32f0-1600878455-0-AQmZJSUh2RbFE_kGBd8RWE0nVzw8B5tVrm3sTNZGfi9bxRvVl1ZNsE0XDSVaaabVPmnJVAhSBNTgN1_sLchmRg-MflYxK0tuz3u8CAxXzLF0HLraOVxLEJCQaYkxmwNNDx9hlMb_Z2kRpjT8JpdAnCoX6Y_im3X_ahBmoJuW-6uZuikh_RoSLZaPam1osICv5vETlo3AqcXnB3pakVtPQspYwaILwISaVEdOihZ1pqfetgR4IzrEzjn_dpQFu0ju1CXwhJKn2ez0XUEQIb2aBGOXru8kV11bCvumQZct-yTJPDNv-QWPioslz4cpAp0eziTccDe_B5ztHIA9B7wnp2UBLRSgQ-JYpkRL0qEyV2eb */
 
 .icon-bar {
   position: fixed;
@@ -1414,4 +1415,27 @@ section .section-title {
 .content {
   margin-left: 75px;
   font-size: 30px;
+}
+
+/* Bottom */
+.social-sharing {
+  display: block;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.social-sharing a {
+  text-align: center;
+  padding: 20px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
 }
