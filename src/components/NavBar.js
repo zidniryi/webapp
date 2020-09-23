@@ -71,9 +71,9 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <li>
-                    <a href="#" className="dropdown-item">
+                    <Link to="/customer" className="dropdown-item">
                       Customer
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

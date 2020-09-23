@@ -10,19 +10,13 @@ const Visi = () => {
         className="container"
         style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
       >
-        <h2>Lorem Ipsum</h2>
+        <h2 style={{ textAlign: 'center' }}>Our Mission & Vision :</h2>
+        <hr />
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eu
-          risus eget nulla bibendum pellentesque sed non felis. Nullam nec nisi
-          non mi sollicitudin aliquam eget viverra odio. Donec sed elit eu augue
-          dictum hendrerit sit amet vitae orci. Morbi nec vestibulum felis, ac
-          dictum ex. Donec efficitur eros ut scelerisque ornare. Integer nibh
-          lacus, eleifend nec justo eu, varius dictum ligula. Duis quam mi,
-          luctus et porttitor at, faucibus at mi. Suspendisse quis augue tempus,
-          consequat felis in, viverra dui. Orci varius natoque penatibus et
-          magnis dis parturient montes, nascetur ridiculus mus. Aliquam aliquam
-          dolor nibh, vitae dignissim lacus cursus eget. Nullam euismod vel odio
-          id semper.
+          Memberikan layanan terbaik dalam hal pengadaan suku cadang untuk alat
+          berat dengan harga yang kompetitif dan juga warranty untuk mencapai
+          CPH dengan kualitas produk terbaik dan juga memegang tanggung jawab
+          pekerjaan karena kepuasan klien kami adalah prioritas utama kami.
         </p>
         <hr />
         <div id="demo" className="carousel slide" data-ride="carousel">

@@ -10,6 +10,7 @@ import Visi from './Visi/Visi'
 import Catalog from './catalagog/Catalog'
 import PdfViewer from './pdfViewer/PdfViewer'
 import ServiceCTP from './service'
+import Customer from './customer/Customer'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
         <Route exact path={'/catalog'} component={Catalog} />
         <Route exact path={'/pdf'} component={PdfViewer} />
         <Route exact path={'/service-ctp'} component={ServiceCTP} />
+        <Route exact path={'/customer'} component={Customer} />
       </Fragment>
     </Router>
   )

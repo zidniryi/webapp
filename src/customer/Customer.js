@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import Floating from '../components/Floating'
 
-const About = () => {
+const Customer = () => {
   return (
     <Fragment>
       <NavBar />
@@ -11,22 +10,51 @@ const About = () => {
         className="container"
         style={{ marginTop: 100 + 'px', marginBottom: 100 + 'px' }}
       >
-        <h2 style={{ textAlign: 'center' }}>About Us :</h2>
+        <h2 style={{ textAlign: 'center' }}>What is PAFINDO doing :</h2>
         <hr />
         <p>
-          PT. Pacific Firstrack Indonesia (PT. PAFINDO) adalah distributor
-          terkemuka untuk menawarkan barang seperti Undercarriage, Ground
-          Engaging Tools (GET) dan Filter dengan mengembangkan kepada perusahaan
-          industri di Indonesia khususnya Pertambangan, Kehutanan, Pertanian,
-          Logging, Konstruksi, Oil & Gas.
-        </p>
-        <p>
-          Sejak tahun 2007, PT PAFINDO telah secara aktif mempromosikan berbagai
-          produk berkualitas tinggi dari BERCO, NR, OFM, FEURST, BPT, dan
-          Donaldson. Lebih dari 2.000 item yang sudah kami siapkan di Warehouse
-          dan didukung oleh karyawan yang memenuhi standar kebutuhan kami. PT
-          PAFINDO berkomitmen untuk menawarkan solusi inovatif, handal dan
-          ekonomis untuk memenuhi kebutuhan pelanggan.
+          <ol>
+            <li>
+              Produk yang berkualitas
+              <ul>
+                <li>
+                  Mendukung komitmen terhadap kualitas, kinerja dan harga yang
+                  kompetitif.
+                </li>
+                <li>
+                  Mendukung komitmen terhadap kualitas, kinerja dan harga yang
+                  kompetitif.
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Inventory yang cukup besar
+              <ul>
+                <li>
+                  Lebih dari 2.000 item yang didukung dengan gudang seluas 3.800
+                  meter persegi juga 70 karyawan siap untuk memberikan bantuan
+                  pelayanan yang terbaik.
+                </li>
+                <li>
+                  Sebagian besar produk ready stock sehingga Anda dapat
+                  meminimalkan unit downtime dan juga dapat memelihara
+                  produktivitas mesin alat berat Anda (Time
+                </li>
+              </ul>
+            </li>
+
+            <li>
+              Distribusi yang cukup luas
+              <ul>
+                <li>
+                  Mencakup ke seluruh wilayah di Indonesia. Dimana pun Anda
+                  berada, kami memiliki sumber daya dan jaringan untuk melayani
+                  Anda.
+                </li>
+              </ul>
+            </li>
+          </ol>
         </p>
         <hr />
         <div id="demo" className="carousel slide" data-ride="carousel">
@@ -134,9 +162,8 @@ const About = () => {
         </div>
       </div>
       <Footer />
-      <Floating />
     </Fragment>
   )
 }
 
-export default About
+export default Customer
