@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
-const background =
-  'https://cdn.pixabay.com/photo/2017/08/06/00/27/yoga-2587066_960_720.jpg'
-
+const background = 'http://www.pafindo.co.id/gfolder/images/bg/24.jpg'
+const background1 = 'http://www.pafindo.co.id/gfolder/images/bg/22.jpg'
+const background2 = 'http://www.pafindo.co.id/gfolder/images/bg/17.jpg'
+const background3 = 'http://www.pafindo.co.id/gfolder/images/bg/1810022.jpg'
 const Slider = () => {
   return (
     <Fragment>
@@ -19,7 +20,7 @@ const Slider = () => {
           </div>
           <div
             className="swiper-slide slider-bg-position"
-            style={{ backgroundImage: `url(${background})` }}
+            style={{ backgroundImage: `url(${background1})` }}
             data-hash="slide2"
           >
             <h2>
@@ -28,7 +29,15 @@ const Slider = () => {
           </div>
           <div
             className="swiper-slide slider-bg-position"
-            style={{ backgroundImage: `url(${background})` }}
+            style={{ backgroundImage: `url(${background2})` }}
+            data-hash="slide2"
+          >
+            <h2>Hoo Hi is nothing more than good health and a bad memory</h2>
+          </div>
+
+          <div
+            className="swiper-slide slider-bg-position"
+            style={{ backgroundImage: `url(${background3})` }}
             data-hash="slide2"
           >
             <h2>Hoo Hi is nothing more than good health and a bad memory</h2>

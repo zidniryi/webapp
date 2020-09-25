@@ -1369,9 +1369,9 @@ section .section-title {
 .icon-bar {
   position: fixed;
   top: 50%;
-  -webkit-transform: translateY(-50%);
+  /* -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
 }
 
 .icon-bar a {
@@ -1439,3 +1439,132 @@ section .section-title {
   color: white;
   font-size: 20px;
 }
+
+/* Form Contact Screen */
+
+.contact-form {
+  box-shadow: 5px 5px 20px;
+  background: #3498db;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 80%;
+}
+.contact-form .form-control {
+  border-radius: 5px;
+}
+.contact-image {
+  text-align: center;
+}
+.contact-image img {
+  box-shadow: 0 10px 10px -5px;
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form {
+  padding: 14%;
+}
+.contact-form form .row {
+  margin-bottom: -7%;
+}
+.contact-form h3 {
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 0rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnSubmit {
+  box-shadow: 0 5px 5px -5px;
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #2ecc71;
+  border: none;
+  cursor: pointer;
+}
+
+/* Floating Social Media Bar Style Starts Here */
+
+.fl-fl {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 4px;
+  width: 190px;
+  position: fixed;
+  right: -160px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.fa {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fab {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+
+.fas {
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 0;
+  width: 40px;
+  margin-left: 8px;
+}
+.fl-fl:hover {
+  right: 0;
+}
+
+.fl-fl a {
+  color: #fff !important;
+  text-decoration: none;
+  text-align: center;
+  line-height: 43px !important;
+  vertical-align: top !important;
+}
+
+.float-fb {
+  top: 160px;
+  background: #55acee;
+}
+
+.float-tw {
+  top: 215px;
+  background: #dd4b39;
+}
+
+.float-gp {
+  top: 270px;
+  background: #5ec556;
+}
+
+.float-rs {
+  top: 325px;
+  background: #007bb5;
+}
+/* Floating Social Media Bar Style Ends Here */
