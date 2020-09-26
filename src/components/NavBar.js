@@ -31,7 +31,7 @@ const NavBar = () => {
             <span style={{ color: 'red' }} class="navbar-toggler-icon"></span>
           </button>
           <a className="navbar-brand mx-auto" href="#">
-            Gra<span>freez</span>
+            Pa<span>Findo</span>
           </a>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ml-auto">

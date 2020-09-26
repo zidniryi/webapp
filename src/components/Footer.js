@@ -6,26 +6,18 @@ const Footer = (props) => {
       <section class="about-sec parallax-section" id="about">
         <div class="container">
           <div class="row">
-            <div class="col-md-3">
-              <h2>
-                <small>Who We Are</small>Loe
-              </h2>
-            </div>
-            <div class="col-md-4">
-              <p>
-                To enjoy good health, to bring true happiness to one's family,
-                to bring peace to all, one must first discipline and control
-                one's own mind. If a man can control his mind he can find the
-                way to Enlightenment, and all wisdom and virtue will naturally
-                come to him.
-              </p>
-              <p>
-                Saving our planet, lifting people out of poverty, advancing
-                economic growth... these are one and the same fight. We must
-                connect the dots between climate change, water scarcity, energy
-                shortages, global health, food security and women's empowerment.
-                Solutions to one problem must be solutions for all.
-              </p>
+            <div class="col-md-7">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/xQXB57EcBVY"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="embed-responsive-item"
+                ></iframe>
+              </div>
             </div>
             <div class="col-md-4">
               <p>
@@ -184,24 +176,9 @@ const Footer = (props) => {
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
               <p>
-                <u>
-                  <a href="https://www.nationaltransaction.com/">
-                    National Transaction Corporation
-                  </a>
-                </u>{' '}
-                is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned
-                subsidiary of U.S. Bancorp, Minneapolis, MN]
+                <u></u> PAFINDO - PACIFIC FIRSTRACK INDONESIA
               </p>
-              <p class="h6">
-                © 2020 All right Reversed.
-                <a
-                  class="text-green ml-2"
-                  href="https://www.sunlimetech.com"
-                  target="_blank"
-                >
-                  Sunlimetech
-                </a>
-              </p>
+              <p class="h6">©2020. ALL RIGHTS RESERVED</p>
             </div>
             <hr />
           </div>
