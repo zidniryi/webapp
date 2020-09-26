@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
 export const CardProduct = () => {
   return (
@@ -20,9 +21,9 @@ export const CardProduct = () => {
             </p>
           </div>
           <div class="card-body text-center">
-            <a class="ad-btn" href="#">
+            <Link class="ad-btn" to="detail-product">
               Lihat
-            </a>
+            </Link>
           </div>
         </div>
       </div>

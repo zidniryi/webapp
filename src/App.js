@@ -12,6 +12,7 @@ import PdfViewer from './pdfViewer/PdfViewer'
 import ServiceCTP from './service'
 import Customer from './customer/Customer'
 import FormContact from './formContact/FormContact'
+import ProductDetail from './productDetail/ProductDetail'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route exact path={'/service-ctp'} component={ServiceCTP} />
         <Route exact path={'/customer'} component={Customer} />
         <Route exact path={'/form-contact'} component={FormContact} />
+        <Route exact path={'/detail-product'} component={ProductDetail} />
       </Fragment>
     </Router>
   )

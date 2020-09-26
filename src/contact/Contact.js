@@ -1,12 +1,42 @@
 import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
+import { SideFloating } from '../components/SideFloating'
 
 const Contact = () => {
   return (
     <Fragment>
       <NavBar />
+      <SideFloating />
+
       <div class="row" id="contatti">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <img
+                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                alt="..."
+                class="img-thumbnail"
+              />
+              <i
+                class="fas fa-city"
+                style={{ color: 'green', fontSize: 200 }}
+              ></i>
+              <i
+                class="fa fa-phone"
+                aria-hidden="true"
+                style={{ width: 20 }}
+              ></i>
+            </div>
+            <div class="col-sm-6">
+              <img
+                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                alt="..."
+                class="img-thumbnail"
+              />
+            </div>
+          </div>
+        </div>
         <div class="container mt-5">
           <div class="row" style={{ height: 550 + 'px' }}>
             <div class="col-md-6 maps">
