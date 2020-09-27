@@ -2,6 +2,8 @@ import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import { SideFloating } from '../components/SideFloating'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { IconContact } from './component/IconContact'
 
 const Contact = () => {
   return (
@@ -13,30 +15,130 @@ const Contact = () => {
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
+              <b>
+                HEADQUARTER :<br /> PT Pacific Firstrack Indonesia
+              </b>
+              <br />
               <img
                 src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
                 alt="..."
                 class="img-thumbnail"
               />
-              <i
-                class="fas fa-city"
-                style={{ color: 'green', fontSize: 200 }}
-              ></i>
-              <i
-                class="fa fa-phone"
-                aria-hidden="true"
-                style={{ width: 20 }}
-              ></i>
+              <IconContact
+                name={`Jalan MT Haryono No.108, Balikpapan Kalimantan Timur`}
+                iconName="fas fa-map-marker-alt"
+              />
+              <IconContact
+                name={`0542-7207555 (hunting)`}
+                iconName="fa fa-phone"
+              />
+              <IconContact
+                name={`0542-7207722 (fax)`}
+                iconName="fab fa-whatsapp"
+              />
             </div>
+
             <div class="col-sm-6">
+              <b>
+                JAKARTA NATIONAL OFFICE :<br />
+                PT Pacific Firstrack Indonesia)
+              </b>
+              <br />
               <img
                 src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
                 alt="..."
                 class="img-thumbnail"
+              />
+              <IconContact
+                name={'Jl. Kapuk Muara, Penjaringan - JAKARTA UTARA'}
+                iconName="fas fa-map-marker-alt"
+              />
+              <IconContact
+                name={`0542-7207555 (hunting)`}
+                iconName="fa fa-phone"
+              />
+            </div>
+
+            {/* 2 */}
+            <br />
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="row">
+            <div class="col-sm-6">
+              <b>
+                WORKSHOP BALIKPAPAN :<br />
+                PT Pacific Firstrack Indonesia
+              </b>
+              <br />
+              <img
+                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                alt="..."
+                class="img-thumbnail"
+              />
+              <IconContact
+                name={
+                  'Jl. Projakal KM 5.5 No.50 Kariangau, Balikpapan - Kalimantan Timur'
+                }
+                iconName="fas fa-map-marker-alt"
+              />
+            </div>
+
+            <div class="col-sm-6">
+              <b>
+                BRANCH SAMARINDA :<br />
+              </b>
+              <br />
+              <img
+                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                alt="..."
+                class="img-thumbnail"
+              />
+              <IconContact
+                name={
+                  'Jl. Belatuk Raya 99, Sungai Pinang Samarinda - Kalimantan Timur'
+                }
+                iconName="fas fa-map-marker-alt"
+              />
+
+              <IconContact name={`+62 541 7273535`} iconName="fa fa-phone" />
+              <IconContact
+                name={`+62 541 7273535 (Fax)`}
+                iconName="fab fa-whatsapp"
               />
             </div>
           </div>
         </div>
+
+        <div className="container">
+          <div className="row">
+            <div class="col-sm-6">
+              <b>
+                BRANCH PALU :<br />
+              </b>
+              <br />
+              <img
+                src="https://www.costex.com/wp-content/uploads/2015/03/miami.jpg"
+                alt="..."
+                class="img-thumbnail"
+              />
+              <IconContact
+                name={'Jl. Basuki Rahmat No. 35, Kota Palu - Sulawesi Tengah'}
+                iconName="fas fa-map-marker-alt"
+              />
+              <IconContact
+                name={'+62 451 485 832 (Tlp)'}
+                iconName="fa fa-phone"
+              />
+              <IconContact
+                name={`+62 451 485 832 (Fax)`}
+                iconName="fab fa-whatsapp"
+              />
+            </div>
+          </div>
+        </div>
+
         <div class="container mt-5">
           <div class="row" style={{ height: 550 + 'px' }}>
             <div class="col-md-6 maps">
