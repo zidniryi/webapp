@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pafindo/static/css/main.5f361e03.chunk.css",
+    "main.js": "/pafindo/static/js/main.bd97f247.chunk.js",
+    "main.js.map": "/pafindo/static/js/main.bd97f247.chunk.js.map",
+    "runtime-main.js": "/pafindo/static/js/runtime-main.c04c8b63.js",
+    "runtime-main.js.map": "/pafindo/static/js/runtime-main.c04c8b63.js.map",
+    "static/js/2.59dad740.chunk.js": "/pafindo/static/js/2.59dad740.chunk.js",
+    "static/js/2.59dad740.chunk.js.map": "/pafindo/static/js/2.59dad740.chunk.js.map",
+    "index.html": "/pafindo/index.html",
+    "precache-manifest.3915b8cdbd4c87ec63fa59150b4a72fb.js": "/pafindo/precache-manifest.3915b8cdbd4c87ec63fa59150b4a72fb.js",
+    "service-worker.js": "/pafindo/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/pafindo/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.59dad740.chunk.js.LICENSE.txt": "/pafindo/static/js/2.59dad740.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c04c8b63.js",
+    "static/js/2.59dad740.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.bd97f247.chunk.js"
+  ]
+}
