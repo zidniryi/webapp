@@ -13,16 +13,18 @@ import ServiceCTP from './service'
 import Customer from './customer/Customer'
 import FormContact from './formContact/FormContact'
 import ProductDetail from './productDetail/ProductDetail'
+import { SideFloating } from './components/SideFloating'
 
 const App = () => {
   return (
     <Router>
       <Fragment>
+        <SideFloating />
         <Switch>
           <Route exact path={'/'} component={Home} />
         </Switch>
         <Route exact path={'/contact'} component={Contact} />
-        <Route exact path={'/gallery'} component={Gallery} />
+        <Route exact path={'/galery'} component={Gallery} />
         <Route exact path={'/about'} component={About} />
         <Route exact path={'/product'} component={Product} />
         <Route exact path={'/visi'} component={Visi} />

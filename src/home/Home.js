@@ -2,8 +2,6 @@ import React, { Fragment } from 'react'
 import NavBar from '../components/NavBar'
 import Slider from '../components/Slider'
 import Footer from '../components/Footer'
-import Floating from '../components/Floating'
-import { SideFloating } from '../components/SideFloating'
 import { CardProduct } from './component/CardProduct'
 
 const Home = () => {
@@ -37,7 +35,6 @@ const Home = () => {
         </div>
       </section>
       <Footer />
-      <SideFloating />
     </Fragment>
   )
 }
