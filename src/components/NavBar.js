@@ -31,7 +31,10 @@ const NavBar = () => {
             <span style={{ color: 'red' }} class="navbar-toggler-icon"></span>
           </button>
           <a className="navbar-brand mx-auto" href="#">
-            Pa<span>Findo</span>
+            <img
+              src="http://www.pafindo.co.id/gfolder/images/logo.png"
+              alt=""
+            />
           </a>
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav ml-auto">
